@@ -15,14 +15,11 @@ import (
 type Quote struct {
 	Symbol string
 	CurrentValue float64
-	//Variation float64
+	Variation float64
 	PreviousClose float64
 	Open float64
-	//Bid float64
-	//Ask float64
 	MarketCapitalization float64
 	Volume int
-	//AverageVolume float64
 }
 
 type EncryptedQuote struct {
